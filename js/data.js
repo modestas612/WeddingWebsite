@@ -24,7 +24,7 @@ var duk_data = [
         atsakymas: 'Jei dalyvauti negalėsite, labai prašome tai pažymėti registracijos formoje.'
     },
     {
-        klausimas: 'Iki kada turiu pranešti apie dalyvavimą/nedalyvavimą?',
+        klausimas: 'Iki kada turiu pranešti apie dalyvavimą / nedalyvavimą?',
         atsakymas: 'Registracijos formą, kurioje galite pranešti apie savo dalyvavimą/nedalyvavimą, prašome užpildyti iki balandžio 8 d. Jeigu vėliau dėl pasikeitusių aplinkybių nebegalėsite dalyvauti šventėje, prašysime pranešti mums atskirai telefonu ar asmenine žinute per messenger.'
     },
     {
@@ -32,7 +32,7 @@ var duk_data = [
         atsakymas: 'TAIP. Į mūsų vestuvių šventę vaikai kviečiami, tad jų tikrai bus. Pastaba atvykstantiems su vaikais: dėl riboto miegamųjų vietų skaičiaus, prašome atvykti su vaikais, kurie yra įtraukti į jūsų kvietimą.'
     },
     {
-        klausimas: 'Ar galėsiu fotografuoti/filmuoti?',
+        klausimas: 'Ar galėsiu fotografuoti / filmuoti?',
         atsakymas: 'TAIP. Filmuoti ir fotografuoti bus galima, bet labai kviečiame pasimėgauti švente padėjus telefonus į šoną :) Nuotraukomis pasirūpins profesionali fotografė tiek per ceremoniją, tiek šventės metu iki pat vidurnakčio, tad nuotraukuose tikrai rasite ir save.'
     },
     {
