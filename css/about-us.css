@@ -1,0 +1,76 @@
+#about.conteiner{
+    height: auto;
+    min-height: 400px;
+}
+
+#about .row{
+    position: relative;
+}
+
+#about.conteiner:hover{
+    --_i: 10%;
+}
+
+.personal-pic{
+    width: 50%;
+    float: left;
+    padding: 0;
+    margin: 100px 0 40px;
+    text-align: center;
+}
+
+.about-me-content{
+    float: right;
+    width: 50%;
+    padding: 0 40px;
+    text-align: justify;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(0, -50%)
+}
+
+.personal-pic > img{
+    width: 400px;
+    height: auto;
+    --_g: 10% /45% 45% no-repeat linear-gradient(#000 0 0);
+    --m:
+      left   var(--_i,0%) top    var(--_g),
+      bottom var(--_i,0%) left   var(--_g),
+      top    var(--_i,0%) right  var(--_g),
+      right  var(--_i,0%) bottom var(--_g);
+    -webkit-mask: var(--m);
+            mask: var(--m);
+    transition: .3s linear;
+}
+
+body > #about > .row > div > h2{
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 45px;
+    font-size: 35px;
+    margin: 0;
+    margin: 10px 0;
+    font-family: 'Atma', system-ui;
+}
+
+body > #about > .row > div > h2 > span{
+    color: rgb(18, 94, 28);
+}
+
+body > #about > .row > div > p{
+    margin-top: 10px;
+    font-family: 'Atma', system-ui;
+    width: 100%;
+    text-align: justify;
+    font-size: 23px;
+}
+
+.line{ 
+    display:block;
+    border:none;
+    color:#fff;
+    height:2px;
+    background:#000;
+    width: 60px;
+}

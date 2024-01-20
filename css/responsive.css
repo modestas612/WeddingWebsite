@@ -1,0 +1,245 @@
+@media ( max-width: 1250px ) {
+
+    .conteiner > .row {
+        width: 1000px;
+        margin-left: calc(50% - 500px);
+    }
+
+    /* ABOUT US */
+    #about > .row{
+        display: flex;
+        flex-direction: column-reverse;
+        position: unset;
+    }
+    .personal-pic{
+        width: 100%;
+        text-align: center;
+        margin: 40px 0 40px;
+    }
+
+    .about-me-content{
+        margin-top: 100px;
+        width: 100%;
+        position: unset;
+        transform: none;
+        top: unset;
+        left: unset;
+    }
+
+    body > #about > .row > div > h2{
+        text-align: center;
+    }
+
+    .about-me-content div {
+        margin: auto;
+        width: 60px;
+        margin-bottom: 50px;
+    }
+
+    /* DUK */
+    #duk_block{
+        width: 100%;
+        padding: 20px;
+    }
+
+    .duk-box {
+        width: 100%;
+        min-height: 100px;
+    }
+
+    /* LOCATION */
+    #location_block{
+        width: 100%;
+        padding: 20px;
+    }
+    .location-box {
+        width: 100%;
+    }
+
+    /* REGISTRATION */
+    .registartion-box{
+        width: 960px;
+        margin-left: calc(50% - 480px);
+    }
+}
+
+@media ( max-width: 1050px ) {
+    .conteiner > .row {
+        width: 800px;
+        margin-left: calc(50% - 400px);
+    }
+
+    /* HERO */
+    #timer div {
+        display: inline-block;
+        width: 25%;
+    }
+
+    /* REGISTRATION */
+    .registartion-box{
+        width: 760px;
+        margin-left: calc(50% - 380px);
+    }
+}
+
+@media ( max-width: 850px ) {
+
+    .conteiner > .row {
+        width: 600px;
+        margin-left: calc(50% - 300px);
+    }
+
+    /* HEADER */
+    .menu-toggle{
+        display: block;
+    }
+    #main_nav{
+        position: absolute;
+        width: 200px;
+        margin-left: calc(100% - 150px);
+        height: calc( auto - 50px );
+        background: #fff;
+        top: -220px;
+        right: 10px;
+        transition: 0.5s;
+        border-radius: 15px;
+    }
+        #main_nav.active{
+            top: 60px;
+        }
+
+        #main_nav > a {
+            display: block;
+            width: 100%;
+            text-align: center;
+            color: #000;
+        }
+
+        header.fixed-header #main_nav {
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+        }
+
+    /* HERO */
+
+    #hero > .row{
+        align-items:normal;
+        justify-content: center;
+    }
+
+    .hero-txt {
+        margin-top: 220px; 
+    }
+        .hero-txt > h3 {
+            font-size: 40px;
+            line-height: 70px;
+        }
+
+        #timer {
+            font-size: 40px;
+        }
+
+        #timer div {
+            display: inline-block;
+            width: 50%;
+        }
+
+    /* REGISTRATION */
+    .registartion-box{
+        width: 560px;
+        margin-left: calc(50% - 280px);
+    }
+}
+
+@media ( max-width: 650px ) {
+
+    .conteiner > .row {
+        width: 400px;
+        margin-left: calc(50% - 200px);
+    }
+
+    /* HEADER */
+    #main_nav{
+        right: 120px;
+    }
+
+    /* ABOUT US */
+    .personal-pic{
+        width: 100%;
+        text-align: center;
+        margin: 0 0 40px;
+    }
+
+    .personal-pic > img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .about-me-content{
+        margin-top: 100px;
+        width: 100%;
+        padding: 0;
+    }
+
+    .map {
+        min-height: 300px;
+    }
+
+    /* REGISTRATION */
+    .registartion-box{
+        width: 360px;
+        margin-left: calc(50% - 180px);
+    }
+
+}
+
+@media ( max-width: 450px ) {
+
+    /* HEADER */
+    #main_nav{
+        right: 20px;
+    }
+
+    /* FOOTER */
+    #footer.conteiner{
+        height: auto;
+    }
+
+}
+
+@media ( max-width: 400px ) {
+    
+    .conteiner > .row {
+        width: 300px;
+        margin-left: calc(50% - 150px);
+    }
+
+    /* HEADER */
+    #main_nav{
+        right: 20px;
+    }
+
+    /* HERO */
+    .hero-txt > h3 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    #timer {  
+        height: 100px;
+        font-size: 30px;
+    }
+
+    #timer div {
+        display: inline-block;
+        width: 50%;
+        min-width: 150px;
+    }
+
+    /* REGISTRATION */
+    .registartion-box{
+        width: 300px;
+        margin-left: calc(50% - 150px);
+    }
+
+}

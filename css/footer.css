@@ -1,0 +1,61 @@
+#footer.conteiner{
+    height: auto;
+}
+
+.main-footer {
+    padding: 10px 0;
+}
+
+.sub-footer {
+    padding: 10px 0 0;
+}
+
+#footer h1 {
+    font-size: 60px;
+    text-align: center;
+    font-family: 'Dancing Script';
+    color: #fff;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+#footer p {
+    text-align: center;
+    color: #999;
+    margin: 20px;
+}
+
+.return-to-top {
+    background: rgb(46, 46, 46);
+    width: 80px;
+    height: 80px;
+    position: relative;
+    margin-left: calc(50% - 40px);
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 40px;
+    padding: 0;
+}
+#return-to-top i {
+    color: #fff;
+    position: absolute;
+    left: 28%;
+    top: 28%;
+    font-size: 35px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#return-to-top:hover {
+    background: rgb(18, 94, 28);
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    padding: 0;
+}
+#return-to-top:hover i {
+    color: #fff;
+    top: 5px;
+}

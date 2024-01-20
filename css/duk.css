@@ -1,0 +1,70 @@
+#duk.conteiner{
+    height: auto;
+    min-height: 400px;
+}
+
+.title {
+    width: 100%;
+    text-align: center;
+    margin: 80px 0 40px 0;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 45px;
+    font-size: 35px;
+    margin: 0;
+    margin: 100px 0 10px 0;
+    font-family: 'Atma', system-ui;
+}
+
+    .title > span{
+        color: rgb(18, 94, 28);
+    }
+
+.line-center{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.line2{ 
+    display:block;
+    border:none;
+    color:#fff;
+    height:3px;
+    background:#000;
+    width: 60px;
+}
+
+.duk-box {
+    float: left;
+    width: 80%;
+    margin-bottom: 20px;
+    margin-left: 10%;
+    padding: 20px 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    text-align: left;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+    
+    .duk-box:last-child {
+        margin-bottom: 40px;
+    }
+
+.duk-box h4 {
+    font-size: 30px;
+    font-weight: 600;
+    color: rgb(18, 94, 28);
+    margin: 0;
+    padding: 0 0 10px;
+    font-family: 'Atma', system-ui;
+}
+
+.duk-box p {
+    font-size: 22px;
+    margin: 0 10px;
+    line-height: 26px;
+    text-align: justify;
+    font-family: 'Atma', system-ui;
+}
