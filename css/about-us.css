@@ -33,15 +33,12 @@
 .personal-pic > img{
     width: 400px;
     height: auto;
-    --_g: 10% /45% 45% no-repeat linear-gradient(#000 0 0);
-    --m:
-      left   var(--_i,0%) top    var(--_g),
-      bottom var(--_i,0%) left   var(--_g),
-      top    var(--_i,0%) right  var(--_g),
-      right  var(--_i,0%) bottom var(--_g);
-    -webkit-mask: var(--m);
-            mask: var(--m);
-    transition: .3s linear;
+    --s: 10px; /* control the size */
+    padding: var(--s);
+    border: calc(2*var(--s)) solid #0000;
+    outline: 1px solid #000;
+    outline-offset: calc(-1*var(--s));
+    background: conic-gradient(from 90deg at 1px 1px,#0000 25%,#000 0);
 }
 
 body > #about > .row > div > h2{

@@ -168,7 +168,7 @@
     .personal-pic{
         width: 100%;
         text-align: center;
-        margin: 0 0 40px;
+        margin: 40px 0 40px;
     }
 
     .personal-pic > img{
