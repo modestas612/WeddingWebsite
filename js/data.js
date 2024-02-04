@@ -1,7 +1,7 @@
 var duk_data = [
     {
         klausimas: 'Ar yra aprangos kodas?',
-        atsakymas: 'TAIP. Aprangos kodas – auksinės ir/arba smaragdinės žalios akcentas.'
+        atsakymas: 'TAIP. Aprangos kodas – žalios ir / arba auksinės spalvos akcentas.'
     },
     {
         klausimas: 'Kur ir kada vyks ceremonija?',
@@ -25,7 +25,7 @@ var duk_data = [
     },
     {
         klausimas: 'Iki kada turiu pranešti apie dalyvavimą / nedalyvavimą?',
-        atsakymas: 'Registracijos formą, kurioje galite pranešti apie savo dalyvavimą/nedalyvavimą, prašome užpildyti iki balandžio 8 d. Jeigu vėliau dėl pasikeitusių aplinkybių nebegalėsite dalyvauti šventėje, prašysime pranešti mums atskirai telefonu ar asmenine žinute per messenger.'
+        atsakymas: 'Registracijos formą, kurioje galite pranešti apie savo dalyvavimą / nedalyvavimą, prašome užpildyti iki kovo 8 d. Jeigu vėliau dėl pasikeitusių aplinkybių nebegalėsite dalyvauti šventėje, prašysime pranešti mums atskirai telefonu ar asmenine žinute per messenger.'
     },
     {
         klausimas: 'Ar šventėje bus vaikų?',
@@ -33,10 +33,10 @@ var duk_data = [
     },
     {
         klausimas: 'Ar galėsiu fotografuoti / filmuoti?',
-        atsakymas: 'TAIP. Filmuoti ir fotografuoti bus galima, bet labai kviečiame pasimėgauti švente padėjus telefonus į šoną :) Nuotraukomis pasirūpins profesionali fotografė tiek per ceremoniją, tiek šventės metu iki pat vidurnakčio, tad nuotraukuose tikrai rasite ir save.'
+        atsakymas: 'TAIP. Filmuoti ir fotografuoti bus galima, bet labai kviečiame pasimėgauti švente padėjus telefonus į šoną :) Nuotraukomis pasirūpins profesionali fotografė tiek per ceremoniją, tiek šventės metu iki pat vidurnakčio, tad nuotraukose tikrai rasite ir save.'
     },
     {
         klausimas: 'Kaip ir kada galėsiu gauti fotografės darytas nuotraukas?',
-        atsakymas: 'Vestuvių nuotraukomis su visais svečiais pasidalinsime el. paštu ar kitais komunikacijos kanalais 3 mėn. bėgyje po įvykusios šventės.'
+        atsakymas: 'Vestuvių nuotraukomis su svečiais pasidalinsime el. paštu ar kitais komunikacijos kanalais 3 mėn. bėgyje po įvykusios šventės.'
     }
 ];
